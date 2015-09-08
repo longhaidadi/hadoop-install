@@ -1,0 +1,25 @@
+#!/bin/bash
+export GDB_HOME=/home/ada/gdb-deploy/scripts/test
+export HADOOP_HOME=/home/ada/gdb-deploy/scripts/test/hadoop-1.2.1
+export HBASE_HOME=/home/ada/gdb-deploy/scripts/test/hbase-0.94.5
+export TOMCAT_HOME=/home/ada/gdb-deploy/scripts/test/apache-tomcat-7.0.64
+export SEARCH_HOME=/home/ada/gdb-deploy/scripts/test/search
+export GDB_ADMIN=/home/ada/gdb-deploy/scripts/test/gdb-admin
+export GDB_CLIENT=/home/ada/gdb-deploy/scripts/test/gdb-client
+export HDFS_TMP_DIR=/home/ada/gdb-deploy/scripts/test/data/tmp
+export HDFS_NAME_DIR=/home/ada/gdb-deploy/scripts/test/data/hdfs/name
+export HDFS_DATA_DIR=/home/ada/gdb-deploy/scripts/test/data/hdfs/data
+export HDFS_ADDR=10.100.1.12:9100
+export HADOOP_NAMENODE=10.100.1.12
+export MR_ADDR=10.100.1.12:9101
+export HADOOP_JOBTRACKER=10.100.1.12
+export ZK_QUORUM=10.100.1.20:2181
+export ZK_QUORUM_HOST=10.100.1.20
+export ZK_QUORUM_PORT=2181
+export HBASE_MASTER=10.100.1.12
+export DTMASTER_ADDR_HOST=10.100.1.12
+export DTONLINE_ADDR_HOST=10.100.1.20
+export DTSEARCH_ADDR_HOST=10.100.1.12
+export TOMCAT_HOST=10.100.1.20
+export REDIS_ADDR_HOST=10.100.1.20
+export REDIS_ADDR_PORT=6379

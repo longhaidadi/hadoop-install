@@ -1,0 +1,2 @@
+./gdb-deploy.sh
+./run.sh all start
